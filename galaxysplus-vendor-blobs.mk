@@ -19,7 +19,7 @@ vendor/samsung/galaxysplus/proprietary/bin/hdmid:system/bin/hdmid \
 vendor/samsung/galaxysplus/proprietary/bin/immvibed:system/bin/immvibed \
 vendor/samsung/galaxysplus/proprietary/bin/macloader:system/bin/macloader \
 vendor/samsung/galaxysplus/proprietary/bin/mfgloader:system/bin/mfgloader \
-vendor/samsung/galaxysplus/proprietary/bin/playsound:system/bin/playsound \
+vendor/samsung/galaxysplus/proprietary/bin/netmgrd:system/bin/netmgrd \
 vendor/samsung/galaxysplus/proprietary/bin/tvoutserver:system/bin/tvoutserver \
 vendor/samsung/galaxysplus/proprietary/bin/wlandutservice:system/bin/wlandutservice \
 vendor/samsung/galaxysplus/proprietary/bin/rmt_storage:system/bin/rmt_storage \
@@ -33,7 +33,9 @@ vendor/samsung/galaxysplus/proprietary/bin/hostapd:system/bin/hostapd \
 vendor/samsung/galaxysplus/proprietary/bin/hostapd_cli:system/bin/hostapd_cli \
 vendor/samsung/galaxysplus/proprietary/bin/logwrapper:system/bin/logwrapper \
 vendor/samsung/galaxysplus/proprietary/bin/port-bridge:system/bin/port-bridge \
+vendor/samsung/galaxysplus/proprietary/bin/qmuxd:system/bin/qmuxd \
 vendor/samsung/galaxysplus/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
+vendor/samsung/galaxysplus/proprietary/bin/zipalign:system/bin/zipalign \
 vendor/samsung/galaxysplus/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
 vendor/samsung/galaxysplus/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
 vendor/samsung/galaxysplus/proprietary/etc/seccamera.xml:system/etc/permissions/seccamera.xml \
@@ -44,6 +46,7 @@ vendor/samsung/galaxysplus/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.
 vendor/samsung/galaxysplus/proprietary/etc/init.qcom.fm.sh:system/etc/init.qcom.fm.sh \
 vendor/samsung/galaxysplus/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
 vendor/samsung/galaxysplus/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
+vendor/samsung/galaxysplus/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
 vendor/samsung/galaxysplus/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
 vendor/samsung/galaxysplus/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
 vendor/samsung/galaxysplus/proprietary/etc/firmware/vidc_720p_command_control.fw:system/etc/firmware/vidc_720p_command_control.fw \
@@ -65,6 +68,8 @@ vendor/samsung/galaxysplus/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/
 vendor/samsung/galaxysplus/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
 vendor/samsung/galaxysplus/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
 vendor/samsung/galaxysplus/proprietary/lib/hw/gps.msm7k.so:system/lib/hw/gps.msm7k.so \
+vendor/samsung/galaxysplus/proprietary/lib/hw/gralloc.msm7k.so:system/lib/hw/gralloc.msm7k.so \
+vendor/samsung/galaxysplus/proprietary/lib/hw/overlay.default.so:system/lib/hw/overlay.default.so \
 vendor/samsung/galaxysplus/proprietary/lib/hw/sensors.GT-I9001.so:system/lib/hw/sensors.GT-I9001.so \
 vendor/samsung/galaxysplus/proprietary/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
 vendor/samsung/galaxysplus/proprietary/lib/lib_tvoutengine.so:system/lib/lib_tvoutengine.so \
@@ -85,6 +90,7 @@ vendor/samsung/galaxysplus/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so 
 vendor/samsung/galaxysplus/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
 vendor/samsung/galaxysplus/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
 vendor/samsung/galaxysplus/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
+vendor/samsung/galaxysplus/proprietary/lib/liboverlay.so:system/lib/liboverlay.so \
 vendor/samsung/galaxysplus/proprietary/lib/libPanoraMax1.so:system/lib/libPanoraMax1.so \
 vendor/samsung/galaxysplus/proprietary/lib/libPlusMe.so:system/lib/libPlusMe.so \
 vendor/samsung/galaxysplus/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
@@ -135,6 +141,4 @@ vendor/samsung/galaxysplus/proprietary/usr/keylayout/msm_tma300_ts.kl:system/usr
 #vendor/samsung/galaxysplus/proprietary/bin/BCM4329B1_002.002.023.0746.0000_SS_S1-plus-38_4MHz-TEST-ONLY.hcd:system/etc/firmware/bcm4329.hcd \  # moved to galaxysplus.mk
 #vendor/samsung/galaxysplus/proprietary/etc/media_profiles.xml:system/etc/media_profiles.xml \  # moved to galaxysplus.mk
 #vendor/samsung/galaxysplus/proprietary/usr/keylayout/sec_jack.kl:system/usr/keylayout/sec_jack.kl  # moved to galaxysplus.mk
-#vendor/samsung/galaxysplus/proprietary/lib/hw/overlay.default.so:system/lib/hw/overlay.default.so \
-#vendor/samsung/galaxysplus/proprietary/lib/liboverlay.so:system/lib/liboverlay.so \
-#vendor/samsung/galaxysplus/proprietary/lib/hw/gralloc.msm7k.so:system/lib/hw/gralloc.msm7k.so \
+# vendor/samsung/galaxysplus/proprietary/bin/playsound:system/bin/playsound \
