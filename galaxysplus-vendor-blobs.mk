@@ -69,7 +69,6 @@ vendor/samsung/galaxysplus/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib
 vendor/samsung/galaxysplus/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
 vendor/samsung/galaxysplus/proprietary/lib/hw/gps.msm7k.so:system/lib/hw/gps.msm7k.so \
 vendor/samsung/galaxysplus/proprietary/lib/hw/gralloc.msm7k.so:system/lib/hw/gralloc.msm7k.so \
-vendor/samsung/galaxysplus/proprietary/lib/hw/overlay.default.so:system/lib/hw/overlay.default.so \
 vendor/samsung/galaxysplus/proprietary/lib/hw/sensors.GT-I9001.so:system/lib/hw/sensors.GT-I9001.so \
 vendor/samsung/galaxysplus/proprietary/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
 vendor/samsung/galaxysplus/proprietary/lib/lib_tvoutengine.so:system/lib/lib_tvoutengine.so \
@@ -142,3 +141,4 @@ vendor/samsung/galaxysplus/proprietary/usr/keylayout/msm_tma300_ts.kl:system/usr
 #vendor/samsung/galaxysplus/proprietary/etc/media_profiles.xml:system/etc/media_profiles.xml \  # moved to galaxysplus.mk
 #vendor/samsung/galaxysplus/proprietary/usr/keylayout/sec_jack.kl:system/usr/keylayout/sec_jack.kl  # moved to galaxysplus.mk
 # vendor/samsung/galaxysplus/proprietary/bin/playsound:system/bin/playsound \
+# vendor/samsung/galaxysplus/proprietary/lib/hw/overlay.default.so:system/lib/hw/overlay.default.so \
